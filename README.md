@@ -4,11 +4,13 @@
 * 文本检测：CTPN
 * 文本识别：DenseNet + CTC
 
-## 环境部署
-``` Bash
-sh setup.sh
-```
-* 注：CPU环境执行前需注释掉for gpu部分，并解开for cpu部分的注释
+## 环境要求
+
+windows10+cpu+tensorflow1.8
+
+下载下来cython我已经编辑好直接可用（python35版本）
+
+注：也可以自己编译
 
 ## Demo
 将测试图片放入test_images目录，检测结果会保存到test_result中
@@ -71,3 +73,7 @@ python train.py
 [3] https://github.com/chineseocr/chinese-ocr
 
 [4] https://github.com/xiaomaxiao/keras_ocr
+
+[5] https://www.jianshu.com/p/027e9399e699  如何将linux改成windows的踩坑记
+
+[6] https://github.com/YCG09/chinese_ocr    linux版本
